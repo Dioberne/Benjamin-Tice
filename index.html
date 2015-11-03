@@ -1,60 +1,140 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>Benjamin Tice | About Me</title>
-    <style type="text/css">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>About Benjamin Tice</title>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <style type="text/css" media="screen, print, projection">
+        @font-face {
+            font-family: "Leage-Spartan";
+            src: url('LeagueSpartan-Bold.otf');
+        }
+        
+        html {
+            color: #000;
+            background: #DDD;
+            margin-bottom: 0;
+            margin-top: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        
         body {
-            background-color: #CCC;
-            margin: 80px 80px 100px 100px;
+            margin-bottom: 0;
+            margin-top: 0;
         }
         
-        div#fixedheader {
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            width: 100%;
+        #main {
+            width: 35em;
+            color: #FFF;
+            background: #222;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0;
+            margin-top: 0;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+        }
+        
+        #top {
             color: #0AF;
-            background: #111;
-            padding: 20px;
+            background: #222;
+            margin-top: 0;
+            padding-top: 1em;
         }
         
-        div#fixedfooter {
-            position: fixed;
-            bottom: 0px;
-            left: 0px;
-            width: 100%;
-            color: #0AF;
-            background: #111;
-            padding: 8px;
+        p {
+            padding-left: 2em;
+            padding-right: 2em;
+            padding-top: 0em;
+            padding-bottom: 0em;
         }
         
-        div#footer-link {
-            float: left;
-            margin-right: 5em;
-            margin-left: 5em;
-            display: inline;
+        h1 {
+            font-family: 'Leage-Spartan', sans-serif;
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+        
+        h2 {
+            font-family: 'Leage-Spartan', sans-serif;
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: 0em;
+            padding-bottom: 0;
+        }
+        
+        h3 {
+            font-family: 'Leage-Spartan', sans-serif;
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: 0em;
+            padding-bottom: 0;
+        }
+        
+        section {
+            padding: 1em;
+        }
+        
+        section:nth-child(odd) {
+            background-color: #09F;
+        }
+        
+        section:nth-child(odd) h3 {
+            color: #fff;
         }
     </style>
 </head>
 
 <body>
-    <div id="fixedheader">Benjamin Tice | About Me</div>
+    <div id="main">
+        <section style="padding: 0;">
+            <h1 id="top" style="text-align: center;">About Benjamin Tice</h1>
+            <p>
+                I am an avid learner, daily Linux user, and innovative researcher. I am looking forward to learning new skills and to applying my talents to InfoSec.
+            </p>
+            <p style="padding-bottom: 2em;">
+                I am currently a student at Bloomsburg University of Pennsylvania planning to graduate in May 2016 with a double major in Digital Forensics and Anthropology.
+            </p>
+        </section>
 
-    <h1>About Me</h1>
-    <p>All about me...</p>
-    <p></p>
-    <p></p>
-    <p></p>
+        <section>
+            <h3>Security</h3>
+            <p>
+                I have been a security enthusiast for years now. I jumped on the chance for penetration testing experience in college. I have also had the chance to do vulnerability assessment with a large company. For club activities I have worked on Linux system hardening and application sandboxing.
+            </p>
+        </section>
 
-    <div id="fixedfooter">
-        <div id="footer-link">Left</div>
-        <div id="footer-link">Middle</div>
-        <div id="footer-link">Right</div>
+        <section>
+            <h3>Forensics</h3>
+            <p>The core of our Digital Forensics degree at Bloomsburg is dead-box hard drive forensics. I learned filesystems and forensics processes from the ground up before learning tools. I have worked cases in EnCase, FTK, Autopsy. I have cracked passwords with PRTK, Hashcat, and created timelines with Log2Timeline. I enjoy the investigative aspect of digital forensics, finding clues and catching bad guys. My report writing skills are good and I have participated in a mock cross examination.
+            </p>
+        </section>
+
+        <section>
+            <h3>Incident Response</h3>
+            <p>
+                Much like with dead-box, I enjoy the 'whodunit' aspect of incident response. The difference is that now the evidence is spread out over running systems, the network, memory and logs. I can, and have, worked with all of these sources of evidence. I taught myself how to use Volatility, and it is my go-to tool for memory forensics. Outside of class I have done memory forensics and malware analysis on my own computers after one of them caught a virus. The virus was mining Bitcoins and I was able to identify what pool it was a part of and the ID of the user within that pool.
+            </p>
+        </section>
+        <section>
+            <h3>Programming</h3>
+            <p>I enjoy coding and often do it either for fun or to solve problems. I originally taught myself Python, then learned Java in class. After that I pursued a number of other languages including C#, Golang, and Rust. I learned to read some assembly through a reverse engineering contest called Microcorruption. I use Bash for task automation on Linux and Powershell for Windows administration. </p>
+        </section>
+
+        <section>
+            <h3>Research</h3>
+            <p>
+                As an anthropologist I study vulnerable human behaviors, the community around the website 4Chan, and hacktivist groups like Anonymous. My training gives me a unique perspective on social engineering and security education. My research has given me insight into the threat posed by groups like Anonymous and Lulsec.
+            </p>
+        </section>
+        <section>
+            <h3>Contact</h3>
+            <p></p>
+
     </div>
 </body>
-<div></div>
 
 </html>

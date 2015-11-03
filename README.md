@@ -1,2 +1,2 @@
 # Benjamin-Tice
-The Blog of Benjamin Tice
+About Benjamin Tice
